@@ -1,0 +1,25 @@
+body{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h1{
+    font-size: 2em;
+    margin:1em 0;
+}
+p{
+    margin:v0.5em 0;
+}
+#first,
+#second{
+    height: 200px;
+    width: 200 px;
+    border: 2px solid black
+}
+#first{
+margin-bottom:  1em;
+background-color: orange;
+}
+#second{
+background-color: green;
+
+}

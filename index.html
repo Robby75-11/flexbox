@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+      <style>
+         body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+          'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+
+      nav {
+        background-color: orangered;
+        /* stili mobile: la direzione dei children è column */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav ul {
+        margin: 0;
+        padding: 1em 0;
+        list-style-type: none;
+        text-align: center;
+        /* da mobile incolonna i figli */
+        display: flex;
+        flex-direction: column;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+
+      nav form {
+        margin-bottom: 1em;
+      }
+
+      form button {
+        color: orangered;
+        background-color: white;
+        border: 1px solid orangered;
+        border-radius: 25px;
+      } 
+    </style>
+    </head>
+    <body>
+      <header>
+        <h1>Flexbox in Css</h1>
+      </header>
+      <main>
+        <div>
+        <form>
+       <nav>
+       <ul>
+       <li>Logo</li>
+       <li>Home</li>
+       <li>Product</li>
+       <li>Service</li>
+              </ul>
+              </nav>
+              <input type="search" placeholder="search">
+              <button>Go</button>
+            </form>
+          </div>
+      </main>
+    
+   
+  </body>
+</html>
